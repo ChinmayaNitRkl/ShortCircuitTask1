@@ -16,7 +16,7 @@ void setup() {
     pinMode(RedLed, OUTPUT);
     pinMode(YellowLed, OUTPUT);
     pinMode(GreenLed, OUTPUT);
-    pinMode(PushButton, INPUT); // External 10kΩ resistor used
+    pinMode(PushButton, INPUT); 
     Serial.begin(9600);
 }
 
